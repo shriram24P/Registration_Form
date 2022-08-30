@@ -1,0 +1,45 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+  background-image: url(assets/bg.jpg);
+  margin-top: 3rem;
+  border-radius: 0.9rem;
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+} 
+
+.registration-form {
+  width: 90rem;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.submit-btn {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.btn-prop {
+  transition-duration: 0.4s;
+}
+
+.btn-prop:hover {
+  background-color: #11c049;
+  color: white;
+}
+
+@media(max-width: 998px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 25%;
+    }
+}
